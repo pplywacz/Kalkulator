@@ -12,6 +12,9 @@ def podziel(a, b):
         raise ValueError("Nie można dzielić przez zero.")
     return a / b
 
+def poteguj(a, b):
+    return a ** b
+
 def menu():
     print("=== Kalkulator ===")
     a = float(input("Podaj pierwszą liczbę: "))
@@ -25,6 +28,8 @@ def menu():
         print("Wynik:", pomnoz(a, b))
     elif dzialanie == "/":
         print("Wynik:", podziel(a, b))
+    elif dzialanie == "^":
+        print("Wynik:", poteguj(a, b))
     else:
         print("Nieznane działanie")
 
