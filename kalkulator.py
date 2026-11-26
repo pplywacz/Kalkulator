@@ -19,7 +19,7 @@ def menu():
     print("=== Kalkulator ===")
     a = float(input("Podaj pierwszą liczbę: "))
     b = float(input("Podaj drugą liczbę: "))
-    dzialanie = input("Działanie (+, -, *, /,**): ")
+    dzialanie = input("Działanie (+, -, *, /, ^): ")
     if dzialanie == "+":
         print("Wynik:", dodaj(a, b))
     elif dzialanie == "-":
