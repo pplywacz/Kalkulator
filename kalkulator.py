@@ -17,8 +17,8 @@ def poteguj(a, b):
 
 def menu():
     print("=== Kalkulator ===")
-    a = float(input("Podaj pierwszą liczbę: "))
-    b = float(input("Podaj drugą liczbę: "))
+    a = float(input("Pierwsza liczba: "))
+    b = float(input("Druga liczba: "))
     dzialanie = input("Działanie (+, -, *, /,^): ")
     if dzialanie == "+":
         print("Wynik:", dodaj(a, b))
